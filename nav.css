@@ -1,0 +1,33 @@
+.nav_container {
+    display: flex;
+    padding: 2em;
+    gap: 2em;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background: var(--background);
+}
+
+.nav_imagem {
+    height: 5em;
+    width: 5em;
+    border-radius: 57px;
+}
+
+.nav_texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav_titulo {
+    font-weight: 700;
+    font-size:20px;
+    margin-bottom: 0.3em;
+}
+
+.nav_subtitulo {
+    color: var(--subtitulos);
+}
