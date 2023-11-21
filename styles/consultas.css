@@ -34,7 +34,7 @@
 .consulta_paciente-textos {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    margin-right: auto;
     gap: 0.3em;
 }
 
@@ -49,8 +49,11 @@
 }
 
 .consulta_modo {
+    display: flex;
+    gap: 0.3em;
     color: var(--subtitulos);
     font-size: 12px;
+    align-content: center;
 }
 
 .consulta_botoes {
